@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="262.0" prefWidth="248.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rs.miromaric.dotsandboxes.client.forms.startgame.StartGamePaneController">
+    <children>
+      <Button fx:id="btnStartGame" layoutX="9.0" layoutY="149.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="231.0" text="START GAME" />
+      <ChoiceBox fx:id="cbSize" layoutX="125.0" layoutY="70.0" prefHeight="51.0" prefWidth="113.0" />
+      <Label fx:id="lblSize" layoutX="16.0" layoutY="70.0" prefHeight="51.0" prefWidth="107.0" text="SIZE" />
+      <Label fx:id="lblFirstMove" layoutX="16.0" layoutY="12.0" prefHeight="51.0" prefWidth="107.0" text="FIRST MOVE" />
+      <ChoiceBox fx:id="cbFirstMove" layoutX="125.0" layoutY="12.0" prefHeight="51.0" prefWidth="113.0" />
+      <Button fx:id="btnCancel" layoutX="8.0" layoutY="206.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="231.0" text="CANCEL" />
+      <Label fx:id="lblInfo" layoutX="8.0" layoutY="131.0" prefHeight="15.0" prefWidth="231.0" textFill="RED" />
+    </children>
+</AnchorPane>

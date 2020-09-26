@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="302.0" prefWidth="255.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rs.miromaric.dotsandboxes.client.forms.home.HomePaneController">
+    <children>
+        <MenuBar fx:id="MainMenu" layoutX="1.0" layoutY="2.0" prefHeight="29.0" prefWidth="257.0">
+            <menus>
+                <Menu fx:id="scores" mnemonicParsing="false" text="Scores ">
+  
+                    <items>
+  
+                        <MenuItem fx:id="scoresInfo" mnemonicParsing="false" onAction="#showScores" text="Show Scores" />  
+                    </items>
+  
+                </Menu>           
+                <Menu fx:id="about" mnemonicParsing="false" text="About ">
+  
+                    <items>
+  
+                        <MenuItem fx:id="aboutInfo" mnemonicParsing="false" onAction="#showAbout" text="Show About" />  
+                    </items>
+  
+                </Menu>           
+                <Menu fx:id="logout" mnemonicParsing="false" text="Logout ">
+  
+                    <items>
+  
+                        <MenuItem fx:id="Logout" mnemonicParsing="false" onAction="#logout" text="Confirm" />  
+                    </items>
+  
+                </Menu>           
+            </menus>
+        </MenuBar>
+        
+        <Button fx:id="btnGame" layoutX="14.0" layoutY="50.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="231.0" text="GAME" />
+        <Button fx:id="btnLogout" layoutX="14.0" layoutY="235.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="231.0" text="LOGOUT" />
+        <Button fx:id="btnAbout" layoutX="14.0" layoutY="174.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="231.0" text="ABOUT" />
+        <Button fx:id="btnScores" layoutX="14.0" layoutY="112.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="231.0" text="SCORES" />
+        
+    </children>
+</AnchorPane>

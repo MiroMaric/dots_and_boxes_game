@@ -1,0 +1,17 @@
+.edge-hover {
+    -fx-border-color:red;
+    -fx-border-width: 2;
+    -fx-border-style: dotted;
+}
+
+.edge-player {
+    -fx-background-color:blue;
+}
+
+.edge-computer {
+    -fx-background-color:blue;
+}
+
+.edge-none {
+    -fx-background-color:transparent;
+}

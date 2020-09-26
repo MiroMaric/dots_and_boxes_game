@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="392.0" prefWidth="248.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rs.miromaric.dotsandboxes.client.forms.signup.SignupPaneController">
+    <children>
+      <Label fx:id="lblNickname" layoutX="9.0" layoutY="6.0" prefHeight="30.0" prefWidth="231.0" text="NICKNAME" />
+      <TextField fx:id="tfNickname" layoutX="9.0" layoutY="36.0" prefHeight="51.0" prefWidth="231.0" />
+      <Label fx:id="lblPassword" layoutX="9.0" layoutY="89.0" prefHeight="30.0" prefWidth="231.0" text="PASSWORD" />
+      <PasswordField fx:id="pfPassword" layoutX="9.0" layoutY="119.0" prefHeight="51.0" prefWidth="231.0" />
+      <Label fx:id="lblRepeatPassword" layoutX="9.0" layoutY="173.0" prefHeight="30.0" prefWidth="231.0" text="REPEAT PASSWORD" />
+      <PasswordField fx:id="pfRepeatPassword" layoutX="9.0" layoutY="203.0" prefHeight="51.0" prefWidth="231.0" />
+      <Button fx:id="btnSignup" layoutX="9.0" layoutY="279.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="231.0" text="SIGN UP" />
+      <Button fx:id="btnCancel" layoutX="9.0" layoutY="336.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="231.0" text="CANCEL" />
+      <Label fx:id="lblInfo" layoutX="9.0" layoutY="260.0" prefHeight="15.0" prefWidth="231.0" textFill="RED" />
+    </children>
+</AnchorPane>

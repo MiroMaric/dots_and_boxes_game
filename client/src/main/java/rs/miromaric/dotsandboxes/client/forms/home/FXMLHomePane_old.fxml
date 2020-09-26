@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="254.0" prefWidth="248.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rs.miromaric.dotsandboxes.client.forms.home.HomePaneController">
+    <children>
+      <Button fx:id="btnGame" layoutX="9.0" layoutY="9.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="231.0" text="GAME" />
+      <Button fx:id="btnLogout" layoutX="9.0" layoutY="194.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="231.0" text="LOGOUT" />
+      <Button fx:id="btnAbout" layoutX="9.0" layoutY="133.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="231.0" text="ABOUT" />
+      <Button fx:id="btnScores" layoutX="9.0" layoutY="71.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="231.0" text="SCORES" />
+    </children>
+</AnchorPane>
